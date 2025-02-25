@@ -37,20 +37,6 @@ def f2_3(n: int) -> str:
 def f2_4(n: int) -> str:
     """
     Creates a pattern where each of the n lines contains n repetitions of the digit n.
-    Implements a recursive solution with base case for n=0.
-    """
-    if n == 0:
-        return ""
-    if n == 1:
-        return str(n) + "\n"
-    
-    line = str(n) * n + "\n"
-    return line + (line * (n-1))
-
-
-def f2_5(n: int) -> str:
-    """
-    Creates a pattern where each of the n lines contains n repetitions of the digit n.
     Uses nested loops for explicit row and column construction.
     """
     if n == 0:
@@ -65,7 +51,7 @@ def f2_5(n: int) -> str:
     return result
 
 
-def f2_6(n: int) -> str:
+def f2_5(n: int) -> str:
     """
     Creates a pattern where each of the n lines contains n repetitions of the digit n.
     Uses string formatting with repetition.
