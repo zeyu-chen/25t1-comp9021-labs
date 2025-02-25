@@ -22,7 +22,7 @@
 - [Hackerrank](https://www.hackerrank.com/domains/python)
 - [LeetCode](https://leetcode.com/)
 
-## Cheaksheet
+## Cheatsheet
 
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
