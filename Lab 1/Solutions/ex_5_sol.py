@@ -31,8 +31,8 @@ def f5_3(filename: str) -> None:
             try:
                 name, count = line.strip().split(",")
                 print(int(count) * 1000, "people named", name)
-            except (ValueError, IndexError):
-                print(f"Skipping invalid line: {line.strip()}")
+            except ValueError:
+                continue
 
 
 def f5_4(filename: str) -> None:
